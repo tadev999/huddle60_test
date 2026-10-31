@@ -4,14 +4,12 @@
 version: 1
 roles:
   po:
-    - id: 286027161
-      login: tadev999
-  dev:
-    - id: 286027161
-      login: tadev999
+    - id: 1
+      login: alice
+  dev: []
   maintainer:
-    - id: 286027161
-      login: tadev999
+    - id: 1
+      login: alice
 # Organization or user Project (v2) that receives Issues created by the planner. Remove to skip.
 # project:
 #   owner: your-org
