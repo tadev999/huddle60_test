@@ -1,0 +1,37 @@
+{
+  "acRefs": [],
+  "baselineId": "bl-5-7636bca2d5d9",
+  "blockedBy": [],
+  "canonicalVersion": 1,
+  "contentHash": "sha256:7636bca2d5d9dd0deccceb067a67016f4774c81b5a8ccb707f08a05367a7ef77",
+  "kind": "story",
+  "parent": null,
+  "requirements": {
+    "criteria": [
+      {
+        "id": "AC-01",
+        "text": "Given người dùng truy cập vào màn hình chào, When màn hình tải hoàn tất, Then thông điệp 'Hello' được hiển thị rõ ràng trên giao diện."
+      },
+      {
+        "id": "AC-02",
+        "text": "Given người dùng truy cập trên các thiết bị có kích thước màn hình khác nhau (mobile, tablet, desktop), When màn hình chào hiển thị, Then nội dung 'Hello' luôn nằm trong khung nhìn và không bị tràn hay che khuất."
+      }
+    ],
+    "sections": {
+      "Acceptance Criteria": "- AC-01: Given người dùng truy cập vào màn hình chào, When màn hình tải hoàn tất, Then thông điệp 'Hello' được hiển thị rõ ràng trên giao diện.\n- AC-02: Given người dùng truy cập trên các thiết bị có kích thước màn hình khác nhau (mobile, tablet, desktop), When màn hình chào hiển thị, Then nội dung 'Hello' luôn nằm trong khung nhìn và không bị tràn hay che khuất.",
+      "Blocked by": "",
+      "Câu hỏi và rủi ro": "_No response_\n\n---\n_Tạo từ kế hoạch `plan-4-r1-543964ec` cho request #4 sau khi PO xác nhận. Nội dung do AI đề xuất; PO/DEV có thể chỉnh sửa trước khi chốt baseline._\n<!-- huddle60:plan-node:plan-4-r1-543964ec/welcome-screen -->",
+      "Issue cha": "",
+      "Mục tiêu và người dùng": "Cung cấp màn hình chào đầu tiên hiển thị thông điệp 'Hello' rõ ràng, thân thiện cho người dùng.",
+      "Phạm vi": "- Trong phạm vi: Xây dựng giao diện màn hình chào\n- Trong phạm vi: Hiển thị văn bản 'Hello' ở vị trí trung tâm\n- Trong phạm vi: Đảm bảo bố cục hiển thị phù hợp trên các kích thước màn hình phổ biến\n- Ngoài phạm vi: Logic xác thực hoặc thông tin định danh cá nhân của người dùng\n- Ngoài phạm vi: Hỗ trợ đa ngôn ngữ động (i18n)\n- Ngoài phạm vi: Các luồng onboarding phức tạp",
+      "Tham chiếu kỹ thuật": ""
+    },
+    "title": "[Story] Hiển thị màn hình chào với lời chào Hello"
+  },
+  "schemaVersion": 1,
+  "source": {
+    "issueNodeId": "I_kwDOVb3b1s8AAAABbPA6Uw",
+    "issueNumber": 5,
+    "repositoryId": 1438505942
+  }
+}
