@@ -7,8 +7,8 @@ roles:
     - id: 286027161
       login: tadev999
   dev:
-    - id: 286027161
-      login: tadev999
+    - id: 65809232
+      login: tadev-git
   maintainer:
     - id: 286027161
       login: tadev999
