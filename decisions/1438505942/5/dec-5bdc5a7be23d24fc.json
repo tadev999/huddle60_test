@@ -1,0 +1,20 @@
+{
+  "actor": {
+    "id": 286027161,
+    "login": "tadev999"
+  },
+  "baselineHash": "sha256:7636bca2d5d9dd0deccceb067a67016f4774c81b5a8ccb707f08a05367a7ef77",
+  "baselineId": "bl-5-7636bca2d5d9",
+  "build": null,
+  "decisionId": "dec-5bdc5a7be23d24fc",
+  "issueNumber": 5,
+  "kind": "approve",
+  "lane": null,
+  "policyVersion": 1,
+  "recordedAt": "2026-10-31T04:10:51.082Z",
+  "schemaVersion": 1,
+  "source": {
+    "commentBodyDigest": "sha256:84a1419bf7af5e261f93f926e5888b0e6fccf29ba76b9a4558f442596e2788de",
+    "commentId": 6538832904
+  }
+}
