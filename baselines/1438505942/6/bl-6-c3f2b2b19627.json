@@ -1,0 +1,30 @@
+{
+  "acRefs": [
+    "AC-01"
+  ],
+  "baselineId": "bl-6-c3f2b2b19627",
+  "blockedBy": [],
+  "canonicalVersion": 1,
+  "contentHash": "sha256:c3f2b2b196272abf0320b63f319417765ddfbef0986e26d5778a399c633cd12d",
+  "kind": "task",
+  "parent": 5,
+  "requirements": {
+    "criteria": [],
+    "sections": {
+      "AC liên quan": "AC-01",
+      "Blocked by": "",
+      "Câu hỏi và rủi ro": "_No response_\n\n---\n_Tạo từ kế hoạch `plan-4-r1-543964ec` cho request #4 sau khi PO xác nhận. Nội dung do AI đề xuất; PO/DEV có thể chỉnh sửa trước khi chốt baseline._\n<!-- huddle60:plan-node:plan-4-r1-543964ec/task-render-hello-screen -->",
+      "Issue cha": "#5",
+      "Mục tiêu và người dùng": "Dựng khung màn hình chào và render văn bản 'Hello' cơ bản cùng kiểm thử hiển thị.",
+      "Phạm vi": "- Trong phạm vi: Định tuyến (routing) hoặc cấu hình điểm truy cập đến màn hình chào\n- Trong phạm vi: Hiển thị chữ 'Hello' với kiểu chữ và căn chỉnh cơ bản\n- Trong phạm vi: Viết kiểm thử component/giao diện xác nhận chữ 'Hello' xuất hiện\n- Ngoài phạm vi: Hiệu ứng animation quá phức tạp",
+      "Tham chiếu kỹ thuật": ""
+    },
+    "title": "[Task] Tạo giao diện và hiển thị thông điệp Hello"
+  },
+  "schemaVersion": 1,
+  "source": {
+    "issueNodeId": "I_kwDOVb3b1s8AAAABbPA7Xw",
+    "issueNumber": 6,
+    "repositoryId": 1438505942
+  }
+}
