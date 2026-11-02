@@ -1,0 +1,20 @@
+{
+  "actor": {
+    "id": 65809232,
+    "login": "tadev-git"
+  },
+  "baselineHash": "sha256:1ac63ff108290848ebfc34bca80decdcd8f80e8e4007fc8e4b269bca500ef703",
+  "baselineId": "bl-11-1ac63ff10829",
+  "build": null,
+  "decisionId": "dec-d9a66594accfbcf6",
+  "issueNumber": 11,
+  "kind": "ready",
+  "lane": "fast",
+  "policyVersion": 1,
+  "recordedAt": "2026-11-02T14:47:22.212Z",
+  "schemaVersion": 1,
+  "source": {
+    "commentBodyDigest": "sha256:264b0e5917a7ac0d39ca61670aee5bffff8eac891debd2e51b1d506912438399",
+    "commentId": 6580083378
+  }
+}
