@@ -1,0 +1,32 @@
+{
+  "acRefs": [
+    "AC-02"
+  ],
+  "baselineId": "bl-7-8e40245ef04f",
+  "blockedBy": [
+    6
+  ],
+  "canonicalVersion": 1,
+  "contentHash": "sha256:8e40245ef04fef75d85095617a47663a263c1c56dd0424e4e3d27e30b8919b49",
+  "kind": "task",
+  "parent": 5,
+  "requirements": {
+    "criteria": [],
+    "sections": {
+      "AC liên quan": "AC-02",
+      "Blocked by": "#6",
+      "Câu hỏi và rủi ro": "_No response_\n\n---\n_Tạo từ kế hoạch `plan-4-r1-543964ec` cho request #4 sau khi PO xác nhận. Nội dung do AI đề xuất; PO/DEV có thể chỉnh sửa trước khi chốt baseline._\n<!-- huddle60:plan-node:plan-4-r1-543964ec/task-responsive-layout-test -->",
+      "Issue cha": "#5",
+      "Mục tiêu và người dùng": "Kiểm tra và hoàn thiện hiển thị thông điệp chào mừng trên các độ phân giải khác nhau.",
+      "Phạm vi": "- Trong phạm vi: Căn giữa nội dung chào theo chiều ngang và dọc\n- Trong phạm vi: Kiểm thử giao diện trên các viewport khác nhau (mobile và desktop)\n- Ngoài phạm vi: Tùy chỉnh giao diện chế độ xoay ngang riêng biệt cho tablet",
+      "Tham chiếu kỹ thuật": ""
+    },
+    "title": "[Task] Đảm bảo hiển thị tương thích đa màn hình"
+  },
+  "schemaVersion": 1,
+  "source": {
+    "issueNodeId": "I_kwDOVb3b1s8AAAABbPA8HQ",
+    "issueNumber": 7,
+    "repositoryId": 1438505942
+  }
+}
