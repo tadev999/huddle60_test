@@ -1,0 +1,37 @@
+{
+  "acRefs": [],
+  "baselineId": "bl-11-1ac63ff10829",
+  "blockedBy": [],
+  "canonicalVersion": 1,
+  "contentHash": "sha256:1ac63ff108290848ebfc34bca80decdcd8f80e8e4007fc8e4b269bca500ef703",
+  "kind": "story",
+  "parent": null,
+  "requirements": {
+    "criteria": [
+      {
+        "id": "AC-01",
+        "text": "Given người dùng mở màn hình đăng nhập, When giao diện đăng nhập hiển thị, Then trường nhập tài khoản hiển thị nhãn hoặc gợi ý chính xác là 'email/user' thay vì 'email'."
+      },
+      {
+        "id": "AC-02",
+        "text": "Given người dùng nhập thông tin vào ô 'email/user' và mật khẩu hợp lệ, When bấm nút đăng nhập, Then hệ thống gửi thông tin và xử lý đăng nhập bình thường như trước."
+      }
+    ],
+    "sections": {
+      "Acceptance Criteria": "- AC-01: Given người dùng mở màn hình đăng nhập, When giao diện đăng nhập hiển thị, Then trường nhập tài khoản hiển thị nhãn hoặc gợi ý chính xác là 'email/user' thay vì 'email'.\n- AC-02: Given người dùng nhập thông tin vào ô 'email/user' và mật khẩu hợp lệ, When bấm nút đăng nhập, Then hệ thống gửi thông tin và xử lý đăng nhập bình thường như trước.",
+      "Blocked by": "",
+      "Câu hỏi và rủi ro": "",
+      "Issue cha": "",
+      "Mục tiêu và người dùng": "Thay đổi nhãn/placeholder trường nhập tài khoản trên màn hình đăng nhập thành 'email/user' theo đúng xác nhận từ PO để người dùng biết có thể sử dụng cả email lẫn username.",
+      "Phạm vi": "- Trong phạm vi: Cập nhật nhãn (label) và/hoặc văn bản gợi ý (placeholder) của ô nhập tài khoản thành 'email/user' trên màn hình đăng nhập\n- Ngoài phạm vi: Thay đổi logic xác thực tài khoản ở backend\n- Ngoài phạm vi: Thay đổi các trường hoặc nhãn trên các màn hình khác như đăng ký hay quên mật khẩu",
+      "Tham chiếu kỹ thuật": ""
+    },
+    "title": "[Story] Cập nhật nhãn trường đăng nhập thành email/user trên màn hình login"
+  },
+  "schemaVersion": 1,
+  "source": {
+    "issueNodeId": "I_kwDOVb3b1s8AAAABb2cS8g",
+    "issueNumber": 11,
+    "repositoryId": 1438505942
+  }
+}
