@@ -1,0 +1,45 @@
+{
+  "acRefs": [],
+  "baselineId": "bl-9-88c3e4429c5b",
+  "blockedBy": [],
+  "canonicalVersion": 1,
+  "contentHash": "sha256:88c3e4429c5bf31bcc9b92c7dd52419d6b1fdd8ba393bde7fda38d6144ad25a7",
+  "kind": "story",
+  "parent": null,
+  "requirements": {
+    "criteria": [
+      {
+        "id": "AC-01",
+        "text": "Given người dùng mới đăng nhập chưa hoàn thiện thông tin hồ sơ, When truy cập ứng dụng, Then hệ thống hiển thị màn hình hoàn thiện profile với các trường: họ tên, số điện thoại, ngày sinh, giới tính, avatar cùng 2 nút hành động 'Lưu' và 'Bỏ qua'."
+      },
+      {
+        "id": "AC-02",
+        "text": "Given người dùng đang ở màn hình nhập thông tin profile, When người dùng nhấn nút 'Bỏ qua', Then hệ thống điều hướng trực tiếp người dùng đến màn hình chính mà không bắt buộc lưu dữ liệu."
+      },
+      {
+        "id": "AC-03",
+        "text": "Given người dùng chọn nhập thông tin và nhấn nút 'Lưu', When thông tin nhập không hợp lệ (họ tên để trống, số điện thoại sai định dạng, ngày sinh trong tương lai hoặc file avatar không đúng định dạng), Then hệ thống ngăn chặn gửi dữ liệu và hiển thị thông báo lỗi tương ứng tại từng trường."
+      },
+      {
+        "id": "AC-04",
+        "text": "Given người dùng điền đầy đủ và hợp lệ các thông tin được yêu cầu, When người dùng nhấn nút 'Lưu', Then hệ thống lưu thông tin hồ sơ, hiển thị thông báo thành công và chuyển hướng đến màn hình chính của ứng dụng."
+      }
+    ],
+    "sections": {
+      "Acceptance Criteria": "- AC-01: Given người dùng mới đăng nhập chưa hoàn thiện thông tin hồ sơ, When truy cập ứng dụng, Then hệ thống hiển thị màn hình hoàn thiện profile với các trường: họ tên, số điện thoại, ngày sinh, giới tính, avatar cùng 2 nút hành động 'Lưu' và 'Bỏ qua'.\n- AC-02: Given người dùng đang ở màn hình nhập thông tin profile, When người dùng nhấn nút 'Bỏ qua', Then hệ thống điều hướng trực tiếp người dùng đến màn hình chính mà không bắt buộc lưu dữ liệu.\n- AC-03: Given người dùng chọn nhập thông tin và nhấn nút 'Lưu', When thông tin nhập không hợp lệ (họ tên để trống, số điện thoại sai định dạng, ngày sinh trong tương lai hoặc file avatar không đúng định dạng), Then hệ thống ngăn chặn gửi dữ liệu và hiển thị thông báo lỗi tương ứng tại từng trường.\n- AC-04: Given người dùng điền đầy đủ và hợp lệ các thông tin được yêu cầu, When người dùng nhấn nút 'Lưu', Then hệ thống lưu thông tin hồ sơ, hiển thị thông báo thành công và chuyển hướng đến màn hình chính của ứng dụng.",
+      "Blocked by": "",
+      "Câu hỏi và rủi ro": "- Bảo vệ dữ liệu cá nhân (PII): Cần kiểm tra quyền truy cập để người dùng chỉ được ghi thông tin lên hồ sơ của chính mình.\n- Xử lý file ảnh avatar an toàn: Giới hạn dung lượng và kiểm tra định dạng mime-type để ngăn chặn rủi ro tải lên file độc hại.\n\n---\n_Tạo từ kế hoạch `plan-8-r1-e188424e` cho request #8 sau khi PO xác nhận. Nội dung do AI đề xuất; PO/DEV có thể chỉnh sửa trước khi chốt baseline._\n<!-- huddle60:plan-node:plan-8-r1-e188424e/profile-onboarding-screen -->",
+      "Issue cha": "",
+      "Mục tiêu và người dùng": "Cho phép người dùng hoàn thiện các thông tin hồ sơ cá nhân (họ tên, số điện thoại, ngày sinh, giới tính, avatar) hoặc lựa chọn bỏ qua để tiếp tục truy cập ứng dụng.",
+      "Phạm vi": "- Trong phạm vi: Thiết kế và xây dựng giao diện màn hình nhập thông tin profile với các trường: Họ và tên, Số điện thoại, Ngày sinh, Giới tính, Tải lên ảnh đại diện (avatar)\n- Trong phạm vi: Tích hợp nút 'Bỏ qua' (Skip) để người dùng chuyển hướng ngay tới màn hình chính mà không cần lưu thông tin\n- Trong phạm vi: Xác thực dữ liệu phía client và backend (họ tên hợp lệ, định dạng số điện thoại, ngày sinh không vượt quá ngày hiện tại, định dạng/dung lượng file avatar)\n- Trong phạm vi: Xử lý trạng thái tải (loading), phản hồi lỗi và thông báo thành công khi lưu dữ liệu\n- Trong phạm vi: Điều hướng người dùng đến màn hình tiếp theo khi hoàn tất lưu hồ sơ hoặc khi nhấn bỏ qua\n- Ngoài phạm vi: Tính năng chỉnh sửa hồ sơ nâng cao hoặc đổi mật khẩu trong phần Cài đặt tài khoản sau này\n- Ngoài phạm vi: Xác thực số điện thoại thông qua mã OTP tại bước này",
+      "Tham chiếu kỹ thuật": ""
+    },
+    "title": "[Story] Màn hình thu thập thông tin hồ sơ người dùng (Profile Setup)"
+  },
+  "schemaVersion": 1,
+  "source": {
+    "issueNodeId": "I_kwDOVb3b1s8AAAABbXI0yA",
+    "issueNumber": 9,
+    "repositoryId": 1438505942
+  }
+}
